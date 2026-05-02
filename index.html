@@ -26,7 +26,10 @@
         </div>
         <div id="resultado-suerte" style="margin-top: 20px; font-size: 1.5em;"></div>
     </div>
-
+<!-- NUEVO MAZO DEL OPONENTE (Añadido aquí) -->
+    <div id="mazo-oponente-visual" class="deck-visual" style="position: fixed; top: 20px; right: 20px; border-color: #7b241c;">
+        <span id="cartas-restantes-enemigo">20</span>
+    </div>
     <div id="mazo-contenedor">
         <div id="deck" class="deck-visual">
             <span id="cartas-restantes">10</span>
@@ -42,7 +45,10 @@
         <div id="heroe-oponente" class="heroe">
             <div class="vida-heroe" id="vida-enemiga">30</div>
         </div>
-
+        <!-- Debajo de <div id="campo-jugador"></div> -->
+        <div id="campo-magia-jugador" class="campo-magia"></div>
+        <div id="campo-magia-oponente" class="campo-magia"></div>
+        <div id="mano-oponente" class="mano"></div>
         <div id="heroe-jugador" class="heroe">
             <div class="vida-heroe" id="vida-jugador">30</div>
         </div>
